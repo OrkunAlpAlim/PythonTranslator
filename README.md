@@ -1,10 +1,10 @@
-# Creating and Adding Content to a Word File
+# Multi-Language Text Translation using Google Translate API
 
-This project allows you to create a Word file in `.docx` format using Python and add text to it.
+This Python script uses the Google Translate API to detect the input text's language and translate it into multiple predefined languages.
 
 ## Requirements
 
 Before running the project, you need to install the following library:
 
 ```bash
-pip install python-docx
+pip install googletrans==4.0.0-rc1
